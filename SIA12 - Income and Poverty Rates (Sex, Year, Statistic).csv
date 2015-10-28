@@ -1,0 +1,34 @@
+"Income and Poverty Rates by Sex, statistical indicator and Year"
+
+" "," ","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013"
+"Both sexes"
+" ","Median Real Household Disposable Income (Euro)",36908,36979,34931,40500,40279,38255,36575,36005,33113,33469
+" ","Mean Real Household Disposable Income (Euro)",44518,45579,43646,50023,48862,45959,44735,42756,40505,40643
+" ","Median Nominal Household Disposable Income (Euro)",32027,32856,34931,38853,40429,38255,35280,35216,33113,33810
+" ","Mean Nominal Household Disposable Income (Euro)",38631,40497,43646,47988,49043,45959,43151,41819,40505,41058
+" ","Median Equivalised Real Disposable Income (Euro)",18586,18792,19211,20633,20681,20107,19273,18555,17702,17374
+" ","Mean Equivalised Real Disposable Income (Euro)",21634,22249,23159,24611,24290,23326,22950,21920,20856,20893
+" ","Median Equivalised Nominal Disposable Income  (Euro)",16128,16697,17610,19794,20758,20107,18591,18148,17702,17551
+" ","Mean Equivalised Nominal Disposable Income (Euro)",18773,19768,21229,23610,24380,23326,22138,21440,20856,21106
+" ","At Risk of Poverty Rate (%)",19.4,18.3,17.0,16.5,14.4,14.1,14.7,16.0,16.5,15.2
+" ","Deprivation Rate (%)",14.1,14.8,14.0,11.8,13.7,17.1,22.6,24.5,26.9,30.5
+" ","Consistent Poverty Rate (%)",6.6,7.0,6.6,5.1,4.2,5.5,6.3,6.9,7.7,8.2
+
+"Deflator Base Year = 2012 (Median Real Household Disposable Income, "
+"Mean Real Household Disposable Income, Median Equivalised Real "
+"Disposable Income and Mean Equivalised Real Disposable Income) "
+" "
+"Deprivation Rate: An individual is defined as being deprived if they "
+"experience two or more forms of enforced deprivation "
+" "
+"Median Real, Mean Real, Median Nominal and Mean Nominal Household "
+"Disposable Incomes are averaged over households WHILE Median "
+"Equivalised Real, Mean Equivalised Real, Median Equivalised Nominal "
+"and Mean Equivalised Nominal Disposable Incomes are averaged over "
+"individuals within the household "
+" "
+"Sex, Age Group, Principal Economic Status (aged 16 years and over) "
+"and Highest Level of Education Completed  refers to that of the head "
+"of household in the ‘At Risk of Poverty Rate’, ‘Deprivation Rate’ and "
+"‘Consistent Poverty Rate’ figures "
+

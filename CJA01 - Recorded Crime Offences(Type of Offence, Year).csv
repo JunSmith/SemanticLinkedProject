@@ -1,0 +1,79 @@
+"Recorded Crime Offences (Number) by Type of Offence and Year"
+
+" ","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013"
+"01 ,Homicide offences",98,126,138,132,89,88,89,66,79,83
+"0111 ,Murder",30,52,62,77,50,56,53,42,53,52
+"0112 ,Manslaughter",15,13,8,7,5,4,5,3,7,3
+"0113 ,Infanticide",0,0,0,1,0,0,0,0,0,0
+"012 ,Dangerous driving leading to death",53,61,68,47,34,28,31,21,19,28
+"02 ,Sexual offences",1752,1801,1415,1366,1406,1480,2366,2014,2116,2010
+"0211 ,Rape of a male or female",411,451,371,357,348,376,478,463,519,451
+"0212 ,Defilement of a boy or girl less than 17 years old",135,119,72,72,76,104,157,148,137,93
+"0213 ,Sexual offence involving mentally impaired person",14,13,15,12,7,8,16,13,25,10
+"0214 ,Aggravated sexual assault",14,7,16,17,13,8,7,10,7,10
+"0215 ,Sexual assault (not aggravated)",1098,1156,886,809,890,894,1531,1205,1289,1320
+"022 ,Other sexual offences",80,55,55,99,72,90,177,175,139,126
+"03 ,Attempts/threats to murder, assaults, harassments and related offences",13277,13687,15454,17665,19150,18353,17703,17062,15710,14502
+"0311 ,Murder-attempt",1,7,8,5,10,7,6,7,7,13
+"0312 ,Murder-threat",47,95,94,161,201,225,361,394,272,342
+"033 ,Harassment and related offences",974,1113,1615,2353,2753,2541,2298,1952,1865,1503
+"034 ,Assault causing harm, poisoning",3892,3708,4014,3911,3850,3733,3713,3584,3231,3089
+"035 ,Other assault",8363,8764,9723,11235,12336,11847,11325,11125,10335,9555
+"04 ,Dangerous or negligent acts",12685,14720,19280,21009,19587,15532,12093,9946,9051,7660
+"0411 ,Dangerous driving causing serious bodily harm",29,22,24,25,17,18,18,13,5,12
+"0412 ,Driving/in charge of a vehicle while over legal alcohol limit",12167,14075,18598,19822,17940,13771,10682,8990,8254,6915
+"0413 ,Driving/in charge of a vehicle under the influence of drugs",77,106,117,270,728,891,602,439,290,271
+"0421 ,Endangerment with potential for serious harm/death",75,80,71,68,50,65,54,100,67,68
+"0422 ,Abandoning a child, child neglect and cruelty",195,268,304,586,566,520,455,196,228,225
+"0423 ,Unseaworthy/dangerous use of boat or ship",0,0,0,1,2,3,9,4,4,2
+"0424 ,False alarm/interference with aircraft or air transport facilities",19,18,16,21,41,21,6,5,8,4
+"0425 ,Endangering traffic offences",123,151,150,216,243,243,267,199,195,163
+"05 ,Kidnapping and related offences",74,74,81,106,77,146,134,109,101,124
+"0511 ,False imprisonment",65,59,70,90,59,84,84,76,67,81
+"0512 ,Abduction of person under 16 years of age",9,15,11,16,11,13,20,14,18,27
+"0513 ,Human trafficking offences",0,0,0,0,7,49,30,19,16,16
+"06 ,Robbery, extortion and hijacking offences",2717,2424,2486,2171,2299,2491,3196,2931,2817,2806
+"0611 ,Robbery of an establishment or institution",1076,1152,1104,814,869,1030,1085,1073,1016,989
+"0612 ,Robbery of cash or goods in transit",61,44,31,20,26,24,21,39,49,39
+"0613 ,Robbery from the person",1480,1138,1250,1256,1266,1310,1945,1696,1614,1687
+"0621 ,Blackmail or extortion",15,18,11,20,22,23,23,23,40,25
+"0631 ,Carjacking, hijacking/unlawful seizure of aircraft/vessel",85,72,90,61,116,104,122,100,98,66
+"07 ,Burglary and related offences",24913,26381,24788,23603,24682,26910,25420,27695,28133,26218
+"0711 ,Aggravated burglary",282,274,284,255,325,368,333,336,283,297
+"0712 ,Burglary (not aggravated)",24430,25911,24270,23052,23933,26113,24578,26724,27098,25241
+"0713 ,Possession of an article (with intent to burgle, steal, demand)",201,196,234,296,424,429,509,635,752,680
+"08 ,Theft and related offences",72201,73076,74494,75187,76861,77031,76826,76974,76402,78737
+"081 ,Theft/taking of vehicle and related offences",14369,14199,13660,13531,14307,13129,11410,10393,8448,7368
+"0821 ,Theft from person",5712,4620,3598,2941,3286,2691,2871,3684,5036,6518
+"0822 ,Theft from shop",14891,16483,18451,18865,20098,20665,20891,19989,19584,20577
+"084 ,Other thefts, handling stolen property",37229,37774,38785,39850,39170,40546,41654,42908,43334,44274
+"09 ,Fraud, deception and related offences",3663,4012,4176,5858,5410,4947,4988,5370,5790,4824
+"10 ,Controlled drug offences",9863,13316,14220,18553,23404,21982,20004,17695,16450,15372
+"1011 ,Importation of drugs",36,36,43,54,67,46,29,41,30,44
+"1012 ,Cultivation or manufacture of drugs",38,50,92,161,218,273,538,580,517,390
+"1021 ,Possession of drugs for sale or supply",2193,2658,3015,3602,4301,4029,4159,3874,3503,3261
+"1022 ,Possession of drugs for personal use",7136,10032,10461,14007,18093,16817,14522,12674,11821,11188
+"103 ,Other drug offences",460,540,609,729,725,817,756,526,579,489
+"11 ,Weapons and Explosives Offences",2153,2558,3119,3595,4016,4064,4099,3483,3038,2750
+"111 ,Explosives, chemical weapons offences",65,105,161,26,50,46,41,78,90,59
+"1121 ,Discharging a firearm",291,311,298,326,224,226,177,163,144,161
+"1122 ,Possession of a firearm",374,434,424,424,457,421,415,294,249,196
+"113 ,Offensive weapons offences (n.e.c.)",1423,1708,2201,2577,2979,2983,3040,2628,2302,2188
+"114 ,Fireworks offences",0,0,35,242,306,388,426,320,253,146
+"12 ,Damage to property and to the environment",37047,39728,43582,43284,44626,42330,39369,35573,32428,28913
+"1211 ,Arson",1505,1413,1641,1998,2155,3024,2588,2325,2155,1948
+"1212 ,Criminal damage (not arson)",35436,38187,41806,41086,42193,39095,36563,33035,29991,26750
+"1221 ,Litter offences",106,128,135,200,278,211,218,213,282,215
+"13 ,Public order and other social code offences",47788,55479,56615,60583,61820,57351,54941,49060,43861,36453
+"131 ,Disorderly conduct",38230,42430,47235,51197,53419,49469,47346,42137,37359,30854
+"132 ,Trespass offences",1565,1842,2355,3002,3675,3793,3786,3580,3335,2951
+"133 ,Liquor licensing offences",6687,9684,5708,5036,3844,3285,2826,2341,1918,1374
+"134 ,Prostitution offences",219,84,107,109,136,93,205,228,148,120
+"135 ,Regulated betting/money, collection/trading offences",317,373,417,538,415,452,429,299,294,326
+"136 ,Social code offences (n.e.c.)",770,1066,793,701,331,259,349,475,807,828
+"15 ,Offences against government, justice procedures and organisation of crime",6453,7792,9482,10997,13255,11898,11397,10173,9445,9188
+"151 ,Offences against government and its agents",165,150,238,402,395,571,365,446,284,278
+"152 ,Organisation of crime and conspiracy to commit crime",16,5,19,10,12,5,18,22,6,4
+"153 ,Perverting the course of justice",259,224,249,193,170,151,95,86,101,63
+"157 ,Offences while in custody, breach of court orders",6013,7413,8976,10392,12678,11171,10919,9619,9054,8843
+
