@@ -1,6 +1,4 @@
-"Recorded Crime Offences (Number) by Type of Offence and Year"
-
-" ","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013"
+"Offence","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013"
 "01 ,Homicide offences",98,126,138,132,89,88,89,66,79,83
 "0111 ,Murder",30,52,62,77,50,56,53,42,53,52
 "0112 ,Manslaughter",15,13,8,7,5,4,5,3,7,3
@@ -76,4 +74,3 @@
 "152 ,Organisation of crime and conspiracy to commit crime",16,5,19,10,12,5,18,22,6,4
 "153 ,Perverting the course of justice",259,224,249,193,170,151,95,86,101,63
 "157 ,Offences while in custody, breach of court orders",6013,7413,8976,10392,12678,11171,10919,9619,9054,8843
-
