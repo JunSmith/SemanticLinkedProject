@@ -1,73 +1,67 @@
-" "," ","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013"
-"Primary or below"
-" ","Median Real Household Disposable Income (Euro)",20165,21157,20382,23768,25077,24536,25130,23868,21984,21380
-" ","Mean Real Household Disposable Income (Euro)",28740,29462,27803,31499,31478,30224,30533,28120,25826,25595
-" ","Median Nominal Household Disposable Income (Euro)",17498,18798,20382,22801,25170,24536,24240,23345,21984,21598
-" ","Mean Nominal Household Disposable Income (Euro)",24939,26177,27803,30218,31595,30224,29452,27504,25826,25856
-" ","Median Equivalised Real Disposable Income (Euro)",12554,13598,13693,15146,15034,15128,15459,15151,14316,14301
-" ","Mean Equivalised Real Disposable Income (Euro)",15353,15762,16381,17591,17508,17582,17555,16568,15610,15768
-" ","Median Equivalised Nominal Disposable Income (Euro)",10894,12082,12552,14530,15090,15128,14912,14819,14316,14447
-" ","Mean Equivalised Nominal Disposable Income (Euro)",13323,14004,15016,16875,17573,17582,16934,16205,15610,15929
-" ","At Risk of Poverty Rate (%)",34.4,29.0,25.8,26.0,24.0,18.6,16.3,18.6,20.8,16.7
-" ","Deprivation Rate (%)",20.3,22.9,20.9,20.2,24.9,24.0,26.5,27.8,32.8,34.9
-" ","Consistent Poverty Rate (%)",11.2,11.3,10.2,8.8,9.5,6.6,6.8,7.4,9.5,8.4
-"Lower secondary"
-" ","Median Real Household Disposable Income (Euro)",37167,35341,33886,38426,37710,35985,33683,31415,30351,27822
-" ","Mean Real Household Disposable Income (Euro)",44274,42616,42259,46264,43449,40648,39422,34372,33830,31482
-" ","Median Nominal Household Disposable Income (Euro)",32252,31400,33886,36863,37850,35985,32491,30727,30351,28106
-" ","Mean Nominal Household Disposable Income (Euro)",38419,37864,42259,44382,43610,40648,38026,33619,33830,31803
-" ","Median Equivalised Real Disposable Income (Euro)",16984,16851,17904,18407,18213,17847,17295,16178,15399,14706
-" ","Mean Equivalised Real Disposable Income (Euro)",19358,19311,20779,20401,19815,19806,19700,17941,17254,16761
-" ","Median Equivalised Nominal Disposable Income (Euro)",14738,14972,16412,17658,18281,17847,16683,15824,15399,14856
-" ","Mean Equivalised Nominal Disposable Income (Euro)",16798,17158,19048,19571,19889,19806,19003,17548,17254,16932
-" ","At Risk of Poverty Rate (%)",20.8,22.5,20.4,21.5,16.9,19.5,18.2,21.9,22.5,23.0
-" ","Deprivation Rate (%)",14.7,19.2,13.9,12.5,14.5,21.5,24.8,26.7,31.3,37.1
-" ","Consistent Poverty Rate (%)",6.8,9.6,7.3,7.2,5.1,7.7,7.8,9.5,10.3,14.0
-"Upper secondary"
-" ","Median Real Household Disposable Income (Euro)",44014,43332,39715,47028,48489,41379,40012,37695,33047,33553
-" ","Mean Real Household Disposable Income (Euro)",48277,49059,46350,54327,53400,47912,47709,42016,38342,37391
-" ","Median Nominal Household Disposable Income (Euro)",38193,38500,39715,45115,48669,41379,38596,36869,33047,33895
-" ","Mean Nominal Household Disposable Income (Euro)",41893,43589,46350,52117,53598,47912,46020,41095,38342,37772
-" ","Median Equivalised Real Disposable Income (Euro)",20025,20045,20320,20543,22135,21367,20293,18628,18023,17085
-" ","Mean Equivalised Real Disposable Income (Euro)",22408,22264,23962,24159,25558,23597,22853,20861,19514,19475
-" ","Median Equivalised Nominal Disposable Income (Euro)",17377,17810,18627,19707,22217,21367,19575,18220,18023,17259
-" ","Mean Equivalised Nominal Disposable Income (Euro)",19445,19781,21965,23176,25653,23597,22044,20404,19514,19674
-" ","At Risk of Poverty Rate (%)",13.9,15.8,14.0,14.7,13.1,13.3,14.4,18.9,18.3,16.2
-" ","Deprivation Rate (%)",10.4,7.9,10.1,8.7,9.3,13.0,19.8,20.9,24.3,28.7
-" ","Consistent Poverty Rate (%)",3.8,3.5,4.4,4.5,2.1,4.8,5.6,6.8,7.0,6.6
-"Post leaving certificate"
-" ","Median Real Household Disposable Income (Euro)",43700,45000,40494,45777,42002,44063,37915,35892,31922,30354
-" ","Mean Real Household Disposable Income (Euro)",47282,48265,46982,52390,47896,49982,42764,40420,37812,34665
-" ","Median Nominal Household Disposable Income (Euro)",37921,39982,40494,43915,42158,44063,36573,35106,31922,30664
-" ","Mean Nominal Household Disposable Income (Euro)",41029,42883,46982,50259,48074,49982,41250,39534,37812,35019
-" ","Median Equivalised Real Disposable Income (Euro)",20968,20603,21935,22250,20812,21341,19294,17999,17253,16060
-" ","Mean Equivalised Real Disposable Income (Euro)",22467,22185,23442,24926,23186,23810,22250,20443,18937,17913
-" ","Median Equivalised Nominal Disposable Income (Euro)",18195,18306,20107,21345,20889,21341,18611,17605,17253,16224
-" ","Mean Equivalised Nominal Disposable Income (Euro)",19496,19711,21489,23912,23272,23810,21462,19995,18937,18096
-" ","At Risk of Poverty Rate (%)",12.6,10.2,11.7,9.7,10.4,10.8,12.2,14.5,16.4,17.5
-" ","Deprivation Rate (%)",8.7,13.5,10.9,10.0,10.5,15.2,21.9,22.2,32.0,34.6
-" ","Consistent Poverty Rate (%)",2.4,4.3,4.0,2.7,2.3,4.4,6.1,5.5,8.8,9.7
-"Third level non-degree"
-" ","Median Real Household Disposable Income (Euro)",48980,46276,44706,55041,57282,58206,47895,45930,39542,41856
-" ","Mean Real Household Disposable Income (Euro)",54057,51914,51140,60247,60581,65036,55668,50562,46088,34665
-" ","Median Nominal Household Disposable Income (Euro)",42503,41116,44706,52802,57495,58206,46199,44924,39542,42283
-" ","Mean Nominal Household Disposable Income (Euro)",46908,46125,51140,57796,60806,65036,53697,49454,46088,49036
-" ","Median Equivalised Real Disposable Income (Euro)",23915,22781,24115,27891,25032,26431,24942,24457,21307,22007
-" ","Mean Equivalised Real Disposable Income (Euro)",25663,24711,26631,29595,27783,27837,27724,26254,23571,24568
-" ","Median Equivalised Nominal Disposable Income (Euro)",20752,20241,22106,26757,25125,26431,24059,23921,21307,22232
-" ","Mean Equivalised Nominal Disposable Income (Euro)",22269,21956,24412,28391,27886,27837,26743,25679,23571,24819
-" ","At Risk of Poverty Rate (%)",7.9,8.0,9.6,10.7,6.7,6.3,7.3,10.8,12.0,8.8
-" ","Deprivation Rate (%)",6.6,9.7,8.2,8.8,12.6,7.9,12.0,18.2,19.9,24.6
-" ","Consistent Poverty Rate (%)",1.8,4.0,2.3,1.0,1.8,1.7,1.7,5.7,5.5,4.4
-"Third level degree or higher"
-" ","Median Real Household Disposable Income (Euro)",60851,60662,55554,64534,68117,60633,59549,59973,56477,56852
-" ","Mean Real Household Disposable Income (Euro)",72334,75580,68565,77564,75406,69401,66258,66165,62143,48541
-" ","Median Nominal Household Disposable Income (Euro)",52804,53898,55554,61909,68370,60633,57441,58659,56477,57432
-" ","Mean Nominal Household Disposable Income (Euro)",62768,67152,68565,74409,75686,69401,63912,64715,62143,64364
-" ","Median Equivalised Real Disposable Income (Euro)",30752,30023,32358,34208,31715,31738,31709,31242,29596,28564
-" ","Mean Equivalised Real Disposable Income (Euro)",35365,37102,37075,38903,36415,35552,35788,33989,32490,32456
-" ","Median Equivalised Nominal Disposable Income (Euro)",26685,26675,29662,32817,31833,31738,30586,30558,29596,28855
-" ","Mean Equivalised Nominal Disposable Income (Euro)",30688,32965,33986,37321,36550,35552,34521,33244,32490,32787
-" ","At Risk of Poverty Rate (%)",4.6,5.0,3.3,4.1,5.4,3.7,6.7,5.4,6.8,5.0
-" ","Deprivation Rate (%)",5.8,5.5,3.5,3.5,4.1,4.2,6.9,11.2,10.8,13.7
-" ","Consistent Poverty Rate (%)",1.1,1.9,0.7,1.0,0.3,0.6,1.5,1.8,2.3,1.5
+Education,Category,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013
+Primary or below,Median Real Household Disposable Income (Euro),20165,21157,20382,23768,25077,24536,25130,23868,21984,21380
+Primary or below,Mean Real Household Disposable Income (Euro),28740,29462,27803,31499,31478,30224,30533,28120,25826,25595
+Primary or below,Median Nominal Household Disposable Income (Euro),17498,18798,20382,22801,25170,24536,24240,23345,21984,21598
+Primary or below,Mean Nominal Household Disposable Income (Euro),24939,26177,27803,30218,31595,30224,29452,27504,25826,25856
+Primary or below,Median Equivalised Real Disposable Income (Euro),12554,13598,13693,15146,15034,15128,15459,15151,14316,14301
+Primary or below,Mean Equivalised Real Disposable Income (Euro),15353,15762,16381,17591,17508,17582,17555,16568,15610,15768
+Primary or below,Median Equivalised Nominal Disposable Income (Euro),10894,12082,12552,14530,15090,15128,14912,14819,14316,14447
+Primary or below,Mean Equivalised Nominal Disposable Income (Euro),13323,14004,15016,16875,17573,17582,16934,16205,15610,15929
+Primary or below,At Risk of Poverty Rate (%),34.4,29,25.8,26,24,18.6,16.3,18.6,20.8,16.7
+Primary or below,Deprivation Rate (%),20.3,22.9,20.9,20.2,24.9,24,26.5,27.8,32.8,34.9
+Primary or below,Consistent Poverty Rate (%),11.2,11.3,10.2,8.8,9.5,6.6,6.8,7.4,9.5,8.4
+Lower secondary,Median Real Household Disposable Income (Euro),37167,35341,33886,38426,37710,35985,33683,31415,30351,27822
+Lower secondary,Mean Real Household Disposable Income (Euro),44274,42616,42259,46264,43449,40648,39422,34372,33830,31482
+Lower secondary,Median Nominal Household Disposable Income (Euro),32252,31400,33886,36863,37850,35985,32491,30727,30351,28106
+Lower secondary,Mean Nominal Household Disposable Income (Euro),38419,37864,42259,44382,43610,40648,38026,33619,33830,31803
+Lower secondary,Median Equivalised Real Disposable Income (Euro),16984,16851,17904,18407,18213,17847,17295,16178,15399,14706
+Lower secondary,Mean Equivalised Real Disposable Income (Euro),19358,19311,20779,20401,19815,19806,19700,17941,17254,16761
+Lower secondary,Median Equivalised Nominal Disposable Income (Euro),14738,14972,16412,17658,18281,17847,16683,15824,15399,14856
+Lower secondary,Mean Equivalised Nominal Disposable Income (Euro),16798,17158,19048,19571,19889,19806,19003,17548,17254,16932
+Lower secondary,At Risk of Poverty Rate (%),20.8,22.5,20.4,21.5,16.9,19.5,18.2,21.9,22.5,23
+Lower secondary,Deprivation Rate (%),14.7,19.2,13.9,12.5,14.5,21.5,24.8,26.7,31.3,37.1
+Lower secondary,Consistent Poverty Rate (%),6.8,9.6,7.3,7.2,5.1,7.7,7.8,9.5,10.3,14
+Upper secondary,Median Real Household Disposable Income (Euro),44014,43332,39715,47028,48489,41379,40012,37695,33047,33553
+Upper secondary,Mean Real Household Disposable Income (Euro),48277,49059,46350,54327,53400,47912,47709,42016,38342,37391
+Upper secondary,Median Nominal Household Disposable Income (Euro),38193,38500,39715,45115,48669,41379,38596,36869,33047,33895
+Upper secondary,Mean Nominal Household Disposable Income (Euro),41893,43589,46350,52117,53598,47912,46020,41095,38342,37772
+Upper secondary,Median Equivalised Real Disposable Income (Euro),20025,20045,20320,20543,22135,21367,20293,18628,18023,17085
+Upper secondary,Mean Equivalised Real Disposable Income (Euro),22408,22264,23962,24159,25558,23597,22853,20861,19514,19475
+Upper secondary,Median Equivalised Nominal Disposable Income (Euro),17377,17810,18627,19707,22217,21367,19575,18220,18023,17259
+Upper secondary,Mean Equivalised Nominal Disposable Income (Euro),19445,19781,21965,23176,25653,23597,22044,20404,19514,19674
+Upper secondary,At Risk of Poverty Rate (%),13.9,15.8,14,14.7,13.1,13.3,14.4,18.9,18.3,16.2
+Upper secondary,Deprivation Rate (%),10.4,7.9,10.1,8.7,9.3,13,19.8,20.9,24.3,28.7
+Upper secondary,Consistent Poverty Rate (%),3.8,3.5,4.4,4.5,2.1,4.8,5.6,6.8,7,6.6
+Post leaving certificate,Median Real Household Disposable Income (Euro),43700,45000,40494,45777,42002,44063,37915,35892,31922,30354
+Post leaving certificate,Mean Real Household Disposable Income (Euro),47282,48265,46982,52390,47896,49982,42764,40420,37812,34665
+Post leaving certificate,Median Nominal Household Disposable Income (Euro),37921,39982,40494,43915,42158,44063,36573,35106,31922,30664
+Post leaving certificate,Mean Nominal Household Disposable Income (Euro),41029,42883,46982,50259,48074,49982,41250,39534,37812,35019
+Post leaving certificate,Median Equivalised Real Disposable Income (Euro),20968,20603,21935,22250,20812,21341,19294,17999,17253,16060
+Post leaving certificate,Mean Equivalised Real Disposable Income (Euro),22467,22185,23442,24926,23186,23810,22250,20443,18937,17913
+Post leaving certificate,Median Equivalised Nominal Disposable Income (Euro),18195,18306,20107,21345,20889,21341,18611,17605,17253,16224
+Post leaving certificate,Mean Equivalised Nominal Disposable Income (Euro),19496,19711,21489,23912,23272,23810,21462,19995,18937,18096
+Post leaving certificate,At Risk of Poverty Rate (%),12.6,10.2,11.7,9.7,10.4,10.8,12.2,14.5,16.4,17.5
+Post leaving certificate,Deprivation Rate (%),8.7,13.5,10.9,10,10.5,15.2,21.9,22.2,32,34.6
+Post leaving certificate,Consistent Poverty Rate (%),2.4,4.3,4,2.7,2.3,4.4,6.1,5.5,8.8,9.7
+Third level non-degree,Median Real Household Disposable Income (Euro),48980,46276,44706,55041,57282,58206,47895,45930,39542,41856
+Third level non-degree,Mean Real Household Disposable Income (Euro),54057,51914,51140,60247,60581,65036,55668,50562,46088,34665
+Third level non-degree,Median Nominal Household Disposable Income (Euro),42503,41116,44706,52802,57495,58206,46199,44924,39542,42283
+Third level non-degree,Mean Nominal Household Disposable Income (Euro),46908,46125,51140,57796,60806,65036,53697,49454,46088,49036
+Third level non-degree,Median Equivalised Real Disposable Income (Euro),23915,22781,24115,27891,25032,26431,24942,24457,21307,22007
+Third level non-degree,Mean Equivalised Real Disposable Income (Euro),25663,24711,26631,29595,27783,27837,27724,26254,23571,24568
+Third level non-degree,Median Equivalised Nominal Disposable Income (Euro),20752,20241,22106,26757,25125,26431,24059,23921,21307,22232
+Third level non-degree,Mean Equivalised Nominal Disposable Income (Euro),22269,21956,24412,28391,27886,27837,26743,25679,23571,24819
+Third level non-degree,At Risk of Poverty Rate (%),7.9,8,9.6,10.7,6.7,6.3,7.3,10.8,12,8.8
+Third level non-degree,Deprivation Rate (%),6.6,9.7,8.2,8.8,12.6,7.9,12,18.2,19.9,24.6
+Third level non-degree,Consistent Poverty Rate (%),1.8,4,2.3,1,1.8,1.7,1.7,5.7,5.5,4.4
+Third level degree or higher,Median Real Household Disposable Income (Euro),60851,60662,55554,64534,68117,60633,59549,59973,56477,56852
+Third level degree or higher,Mean Real Household Disposable Income (Euro),72334,75580,68565,77564,75406,69401,66258,66165,62143,48541
+Third level degree or higher,Median Nominal Household Disposable Income (Euro),52804,53898,55554,61909,68370,60633,57441,58659,56477,57432
+Third level degree or higher,Mean Nominal Household Disposable Income (Euro),62768,67152,68565,74409,75686,69401,63912,64715,62143,64364
+Third level degree or higher,Median Equivalised Real Disposable Income (Euro),30752,30023,32358,34208,31715,31738,31709,31242,29596,28564
+Third level degree or higher,Mean Equivalised Real Disposable Income (Euro),35365,37102,37075,38903,36415,35552,35788,33989,32490,32456
+Third level degree or higher,Median Equivalised Nominal Disposable Income (Euro),26685,26675,29662,32817,31833,31738,30586,30558,29596,28855
+Third level degree or higher,Mean Equivalised Nominal Disposable Income (Euro),30688,32965,33986,37321,36550,35552,34521,33244,32490,32787
+Third level degree or higher,At Risk of Poverty Rate (%),4.6,5,3.3,4.1,5.4,3.7,6.7,5.4,6.8,5
+Third level degree or higher,Deprivation Rate (%),5.8,5.5,3.5,3.5,4.1,4.2,6.9,11.2,10.8,13.7
+Third level degree or higher,Consistent Poverty Rate (%),1.1,1.9,0.7,1,0.3,0.6,1.5,1.8,2.3,1.5

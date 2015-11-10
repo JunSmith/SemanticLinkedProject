@@ -1,46 +1,66 @@
 var crimeJson = require('./CJA01_J.json');
 var PouchDB = require('pouchdb');
+var express = require('express');
+var fs = require('fs');
 
 //var cdb = new pouchdb('http://localhost:8000/cdb'); // crime database
-var db = new PouchDB('dbname');
+// var crimedb = new PouchDB('crimeDb');
+var app = express();
+var getQuery = "0111 ,Murder";
+var crimedb = new PouchDB('crimeDb');
 
 function loader()
 {
-db.put({
-  _id: 'mydoc',
-  title: 'Heroes'
-}).then(function (response) {
-  // handle response
-}).catch(function (err) {
-  console.log(err);
-});
+  for(var i = 0; i < crimeJson.length; i++) {
+    var dbKey = crimeJson[i]._id;
+    var dbElements = crimeJson[i];
+    delete dbElements._id;
 
-for(var i = 0; i < crimeJson.length; i++)
-{
-  var dbKey = crimeJson[i]._id;
-  var dbElements = crimeJson[i];
-
-  delete dbElements._id;
-
-  cdb.put({
-      _id: dbKey,
+    crimedb.put({
+      _id:dbKey,
       dbElements
-    }).catch(error){
-      console.log(function (err){console.log(err);});
-    };
-}
+    }).then( function (response) {
+      //console.log(response);
+    }).catch(function (err){
+      console.log(err);
+    });
+  }
 }
 
-function getter()
-{
-db.get('mydoc').then(function (doc) {
-  console.log(doc);
-}).catch(function (err) {
-  console.log(err);
+function getter(query) {
+  crimedb.get(query).then(function (doc) {
+    console.log(doc);
+    //return crimedb.remove(doc);
+  }).catch(function (err) {
+    console.log(err);
+  });
+}
+
+function getAll() {
+  crimedb.allDocs({include_docs:true}, function(err, res) {
+    for(var i = 0;i < res.rows.length; i++) {
+    }
+  });
+}
+
+app.get('/', function(req, res) {
+  res.send(getter(getQuery));
 });
 
-
+function checkDbExists(db){
+  try {
+    stats = fs.lstatSync('./' + db); // Check if directory exists
+    if(stats.isDirectory()) { // true case
+      console.log(db, ' directory exists');
+    }
+  }
+  catch(e){ // If directory does not exist
+    loader();
+  }
 }
 
-putter();
-getter();
+checkDbExists('crimeDb');
+getter(getQuery);
+getAll();
+
+var server = app.listen(8000);
