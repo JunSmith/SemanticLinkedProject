@@ -8,8 +8,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true}));
 
 var db = new sqlite3.Database(':memory:');
-var crime = JSON.parse(fs.readFileSync('CJA01_J.json','utf8'));
-var poverty = JSON.parse(fs.readFileSync('SIA15_J.json', 'utf8'));
+var crime = JSON.parse(fs.readFileSync('./assets/CJA01_J.json','utf8'));
+var poverty = JSON.parse(fs.readFileSync('./assets/SIA15_J.json', 'utf8'));
 
 db.serialize(function() {
   db.run("CREATE TABLE crime ('id' TEXT, 'y2004' INTEGER, 'y2005' INTEGER, "
