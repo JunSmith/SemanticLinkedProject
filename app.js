@@ -52,6 +52,13 @@ app.get('/allp', function(req, res){
   });
 });
 
+// app.get('/all', function(req, res){
+//   db.all("SELECT * FROM crime", funcion(err, row) {
+//     rowString = JSON.stringify(row, null, '\t');
+//     res.sendStatus(rowString);
+//   });
+// });
+
 app.get('/search/:id', function(req, res) {
   db.all("SELECT * FROM crime WHERE id LIKE '%" + req.params.id +"%'", function(err, row) {
     rowString = JSON.stringify(row, null, '\t');
