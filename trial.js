@@ -3,8 +3,6 @@ var PouchDB = require('pouchdb');
 var express = require('express');
 var fs = require('fs');
 
-//var cdb = new pouchdb('http://localhost:8000/cdb'); // crime database
-// var crimedb = new PouchDB('crimeDb');
 var app = express();
 var getQuery = "0111 ,Murder";
 var crimedb = new PouchDB('crimeDb');
@@ -20,7 +18,7 @@ function loader()
       _id:dbKey,
       dbElements
     }).then( function (response) {
-      //console.log(response);
+      console.log(response);
     }).catch(function (err){
       console.log(err);
     });
@@ -29,7 +27,7 @@ function loader()
 
 function getter(query) {
   crimedb.get(query).then(function (doc) {
-    console.log(doc);
+    console.log(doc.dbElements);
     //return crimedb.remove(doc);
   }).catch(function (err) {
     console.log(err);
@@ -55,12 +53,13 @@ function checkDbExists(db){
     }
   }
   catch(e){ // If directory does not exist
-    loader();
+    //loader();
   }
 }
 
 checkDbExists('crimeDb');
+//loader();
 getter(getQuery);
-getAll();
+//getAll();
 
 var server = app.listen(8000);
