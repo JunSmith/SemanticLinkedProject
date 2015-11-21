@@ -1,6 +1,6 @@
 [
   {
-    "_id":"01 ,Homicide",
+    "crimeType":"01 ,Homicide",
     "Y2004":98,
     "Y2005":126,
     "Y2006":138,
@@ -13,7 +13,7 @@
     "Y2013":83
   },
   {
-    "_id":"0111 ,Murder",
+    "crimeType":"0111 ,Murder",
     "Y2004":30,
     "YY2005":52,
     "Y2006":62,
@@ -26,7 +26,7 @@
     "Y2013":52
   },
   {
-    "_id":"0112 ,Manslaughter",
+    "crimeType":"0112 ,Manslaughter",
     "Y2004":15,
     "Y2005":13,
     "Y2006":8,
@@ -39,7 +39,7 @@
     "Y2013":3
   },
   {
-    "_id":"0113 ,Infanticide",
+    "crimeType":"0113 ,Infanticide",
     "Y2004":0,
     "Y2005":0,
     "Y2006":0,
@@ -52,7 +52,7 @@
     "Y2013":0
   },
   {
-    "_id":"012 ,Dangerous driving leading to death",
+    "crimeType":"012 ,Dangerous driving leading to death",
     "Y2004":53,
     "Y2005":61,
     "Y2006":68,
@@ -65,7 +65,7 @@
     "Y2013":28
   },
   {
-    "_id":"02 ,Sexual ",
+    "crimeType":"02 ,Sexual ",
     "Y2004":1752,
     "Y2005":1801,
     "Y2006":1415,
@@ -78,7 +78,7 @@
     "Y2013":2010
   },
   {
-    "_id":"0211 ,Rape of a male or female",
+    "crimeType":"0211 ,Rape of a male or female",
     "Y2004":411,
     "Y2005":451,
     "Y2006":371,
@@ -91,7 +91,7 @@
     "Y2013":451
   },
   {
-    "_id":"0212 ,Defilement of a boy or girl less than 17 years old",
+    "crimeType":"0212 ,Defilement of a boy or girl less than 17 years old",
     "Y2004":135,
     "Y2005":119,
     "Y2006":72,
@@ -104,7 +104,7 @@
     "Y2013":93
   },
   {
-    "_id":"0213 ,Sexual _id involving mentally impaired person",
+    "crimeType":"0213 ,Sexual _id involving mentally impaired person",
     "Y2004":14,
     "Y2005":13,
     "Y2006":15,
@@ -117,7 +117,7 @@
     "Y2013":10
   },
   {
-    "_id":"0214 ,Aggravated sexual assault",
+    "crimeType":"0214 ,Aggravated sexual assault",
     "Y2004":14,
     "Y2005":7,
     "Y2006":16,
@@ -130,7 +130,7 @@
     "Y2013":10
   },
   {
-    "_id":"0215 ,Sexual assault (not aggravated)",
+    "crimeType":"0215 ,Sexual assault (not aggravated)",
     "Y2004":1098,
     "Y2005":1156,
     "Y2006":886,
@@ -143,7 +143,7 @@
     "Y2013":1320
   },
   {
-    "_id":"022 ,Other sexual ",
+    "crimeType":"022 ,Other sexual ",
     "Y2004":80,
     "Y2005":55,
     "Y2006":55,
@@ -156,7 +156,7 @@
     "Y2013":126
   },
   {
-    "_id":"03 ,Attempts/threats to murder, assaults, harassments and related ",
+    "crimeType":"03 ,Attempts/threats to murder, assaults, harassments and related ",
     "Y2004":13277,
     "Y2005":13687,
     "Y2006":15454,
@@ -169,7 +169,7 @@
     "Y2013":14502
   },
   {
-    "_id":"0311 ,Murder-attempt",
+    "crimeType":"0311 ,Murder-attempt",
     "Y2004":1,
     "Y2005":7,
     "Y2006":8,
@@ -182,7 +182,7 @@
     "Y2013":13
   },
   {
-    "_id":"0312 ,Murder-threat",
+    "crimeType":"0312 ,Murder-threat",
     "Y2004":47,
     "Y2005":95,
     "Y2006":94,
@@ -195,7 +195,7 @@
     "Y2013":342
   },
   {
-    "_id":"033 ,Harassment and related ",
+    "crimeType":"033 ,Harassment and related ",
     "Y2004":974,
     "Y2005":1113,
     "Y2006":1615,
@@ -208,7 +208,7 @@
     "Y2013":1503
   },
   {
-    "_id":"034 ,Assault causing harm, poisoning",
+    "crimeType":"034 ,Assault causing harm, poisoning",
     "Y2004":3892,
     "Y2005":3708,
     "Y2006":4014,
@@ -221,7 +221,7 @@
     "Y2013":3089
   },
   {
-    "_id":"035 ,Other assault",
+    "crimeType":"035 ,Other assault",
     "Y2004":8363,
     "Y2005":8764,
     "Y2006":9723,
@@ -234,7 +234,7 @@
     "Y2013":9555
   },
   {
-    "_id":"04 ,Dangerous or negligent acts",
+    "crimeType":"04 ,Dangerous or negligent acts",
     "Y2004":12685,
     "Y2005":14720,
     "Y2006":19280,
@@ -247,7 +247,7 @@
     "Y2013":7660
   },
   {
-    "_id":"0411 ,Dangerous driving causing serious bodily harm",
+    "crimeType":"0411 ,Dangerous driving causing serious bodily harm",
     "Y2004":29,
     "Y2005":22,
     "Y2006":24,
@@ -260,7 +260,7 @@
     "Y2013":12
   },
   {
-    "_id":"0412 ,Driving/in charge of a vehicle while over legal alcohol limit",
+    "crimeType":"0412 ,Driving/in charge of a vehicle while over legal alcohol limit",
     "Y2004":12167,
     "Y2005":14075,
     "Y2006":18598,
@@ -273,7 +273,7 @@
     "Y2013":6915
   },
   {
-    "_id":"0413 ,Driving/in charge of a vehicle under the influence of drugs",
+    "crimeType":"0413 ,Driving/in charge of a vehicle under the influence of drugs",
     "Y2004":77,
     "Y2005":106,
     "Y2006":117,
@@ -286,7 +286,7 @@
     "Y2013":271
   },
   {
-    "_id":"0421 ,Endangerment with potential for serious harm/death",
+    "crimeType":"0421 ,Endangerment with potential for serious harm/death",
     "Y2004":75,
     "Y2005":80,
     "Y2006":71,
@@ -299,7 +299,7 @@
     "Y2013":68
   },
   {
-    "_id":"0422 ,Abandoning a child, child neglect and cruelty",
+    "crimeType":"0422 ,Abandoning a child, child neglect and cruelty",
     "Y2004":195,
     "Y2005":268,
     "Y2006":304,
@@ -312,7 +312,7 @@
     "Y2013":225
   },
   {
-    "_id":"0423 ,Unseaworthy/dangerous use of boat or ship",
+    "crimeType":"0423 ,Unseaworthy/dangerous use of boat or ship",
     "Y2004":0,
     "Y2005":0,
     "Y2006":0,
@@ -325,7 +325,7 @@
     "Y2013":2
   },
   {
-    "_id":"0424 ,False alarm/interference with aircraft or air transport facilities",
+    "crimeType":"0424 ,False alarm/interference with aircraft or air transport facilities",
     "Y2004":19,
     "Y2005":18,
     "Y2006":16,
@@ -338,7 +338,7 @@
     "Y2013":4
   },
   {
-    "_id":"0425 ,Endangering traffic",
+    "crimeType":"0425 ,Endangering traffic",
     "Y2004":123,
     "Y2005":151,
     "Y2006":150,
@@ -351,7 +351,7 @@
     "Y2013":163
   },
   {
-    "_id":"05 ,Kidnapping and related",
+    "crimeType":"05 ,Kidnapping and related",
     "Y2004":74,
     "Y2005":74,
     "Y2006":81,
@@ -364,7 +364,7 @@
     "Y2013":124
   },
   {
-    "_id":"0511 ,False imprisonment",
+    "crimeType":"0511 ,False imprisonment",
     "Y2004":65,
     "Y2005":59,
     "Y2006":70,
@@ -377,7 +377,7 @@
     "Y2013":81
   },
   {
-    "_id":"0512 ,Abduction of person under 16 years of age",
+    "crimeType":"0512 ,Abduction of person under 16 years of age",
     "Y2004":9,
     "Y2005":15,
     "Y2006":11,
@@ -390,7 +390,7 @@
     "Y2013":27
   },
   {
-    "_id":"0513 ,Human trafficking ",
+    "crimeType":"0513 ,Human trafficking ",
     "Y2004":0,
     "Y2005":0,
     "Y2006":0,
@@ -403,7 +403,7 @@
     "Y2013":16
   },
   {
-    "_id":"06 ,Robbery, extortion and hijacking ",
+    "crimeType":"06 ,Robbery, extortion and hijacking ",
     "Y2004":2717,
     "Y2005":2424,
     "Y2006":2486,
@@ -416,7 +416,7 @@
     "Y2013":2806
   },
   {
-    "_id":"0611 ,Robbery of an establishment or institution",
+    "crimeType":"0611 ,Robbery of an establishment or institution",
     "Y2004":1076,
     "Y2005":1152,
     "Y2006":1104,
@@ -429,7 +429,7 @@
     "Y2013":989
   },
   {
-    "_id":"0612 ,Robbery of cash or goods in transit",
+    "crimeType":"0612 ,Robbery of cash or goods in transit",
     "Y2004":61,
     "Y2005":44,
     "Y2006":31,
@@ -442,7 +442,7 @@
     "Y2013":39
   },
   {
-    "_id":"0613 ,Robbery from the person",
+    "crimeType":"0613 ,Robbery from the person",
     "Y2004":1480,
     "Y2005":1138,
     "Y2006":1250,
@@ -455,7 +455,7 @@
     "Y2013":1687
   },
   {
-    "_id":"0621 ,Blackmail or extortion",
+    "crimeType":"0621 ,Blackmail or extortion",
     "Y2004":15,
     "Y2005":18,
     "Y2006":11,
@@ -468,7 +468,7 @@
     "Y2013":25
   },
   {
-    "_id":"0631 ,Carjacking, hijacking/unlawful seizure of aircraft/vessel",
+    "crimeType":"0631 ,Carjacking, hijacking/unlawful seizure of aircraft/vessel",
     "Y2004":85,
     "Y2005":72,
     "Y2006":90,
@@ -481,7 +481,7 @@
     "Y2013":66
   },
   {
-    "_id":"07 ,Burglary and related ",
+    "crimeType":"07 ,Burglary and related ",
     "Y2004":24913,
     "Y2005":26381,
     "Y2006":24788,
@@ -494,7 +494,7 @@
     "Y2013":26218
   },
   {
-    "_id":"0711 ,Aggravated burglary",
+    "crimeType":"0711 ,Aggravated burglary",
     "Y2004":282,
     "Y2005":274,
     "Y2006":284,
@@ -507,7 +507,7 @@
     "Y2013":297
   },
   {
-    "_id":"0712 ,Burglary (not aggravated)",
+    "crimeType":"0712 ,Burglary (not aggravated)",
     "Y2004":24430,
     "Y2005":25911,
     "Y2006":24270,
@@ -520,7 +520,7 @@
     "Y2013":25241
   },
   {
-    "_id":"0713 ,Possession of an article (with intent to burgle, steal, demand)",
+    "crimeType":"0713 ,Possession of an article (with intent to burgle, steal, demand)",
     "Y2004":201,
     "Y2005":196,
     "Y2006":234,
@@ -533,7 +533,7 @@
     "Y2013":680
   },
   {
-    "_id":"08 ,Theft and related ",
+    "crimeType":"08 ,Theft and related ",
     "Y2004":72201,
     "Y2005":73076,
     "Y2006":74494,
@@ -546,7 +546,7 @@
     "Y2013":78737
   },
   {
-    "_id":"081 ,Theft/taking of vehicle and related ",
+    "crimeType":"081 ,Theft/taking of vehicle and related ",
     "Y2004":14369,
     "Y2005":14199,
     "Y2006":13660,
@@ -559,7 +559,7 @@
     "Y2013":7368
   },
   {
-    "_id":"0821 ,Theft from person",
+    "crimeType":"0821 ,Theft from person",
     "Y2004":5712,
     "Y2005":4620,
     "Y2006":3598,
@@ -572,7 +572,7 @@
     "Y2013":6518
   },
   {
-    "_id":"0822 ,Theft from shop",
+    "crimeType":"0822 ,Theft from shop",
     "Y2004":14891,
     "Y2005":16483,
     "Y2006":18451,
@@ -585,7 +585,7 @@
     "Y2013":20577
   },
   {
-    "_id":"084 ,Other thefts, handling stolen property",
+    "crimeType":"084 ,Other thefts, handling stolen property",
     "Y2004":37229,
     "Y2005":37774,
     "Y2006":38785,
@@ -598,7 +598,7 @@
     "Y2013":44274
   },
   {
-    "_id":"09 ,Fraud, deception and related ",
+    "crimeType":"09 ,Fraud, deception and related ",
     "Y2004":3663,
     "Y2005":4012,
     "Y2006":4176,
@@ -611,7 +611,7 @@
     "Y2013":4824
   },
   {
-    "_id":"10 ,Controlled drug ",
+    "crimeType":"10 ,Controlled drug ",
     "Y2004":9863,
     "Y2005":13316,
     "Y2006":14220,
@@ -624,7 +624,7 @@
     "Y2013":15372
   },
   {
-    "_id":"1011 ,Importation of drugs",
+    "crimeType":"1011 ,Importation of drugs",
     "Y2004":36,
     "Y2005":36,
     "Y2006":43,
@@ -637,7 +637,7 @@
     "Y2013":44
   },
   {
-    "_id":"1012 ,Cultivation or manufacture of drugs",
+    "crimeType":"1012 ,Cultivation or manufacture of drugs",
     "Y2004":38,
     "Y2005":50,
     "Y2006":92,
@@ -650,7 +650,7 @@
     "Y2013":390
   },
   {
-    "_id":"1021 ,Possession of drugs for sale or supply",
+    "crimeType":"1021 ,Possession of drugs for sale or supply",
     "Y2004":2193,
     "Y2005":2658,
     "Y2006":3015,
@@ -663,7 +663,7 @@
     "Y2013":3261
   },
   {
-    "_id":"1022 ,Possession of drugs for personal use",
+    "crimeType":"1022 ,Possession of drugs for personal use",
     "Y2004":7136,
     "Y2005":10032,
     "Y2006":10461,
@@ -676,7 +676,7 @@
     "Y2013":11188
   },
   {
-    "_id":"103 ,Other drug ",
+    "crimeType":"103 ,Other drug ",
     "Y2004":460,
     "Y2005":540,
     "Y2006":609,
@@ -689,7 +689,7 @@
     "Y2013":489
   },
   {
-    "_id":"11 ,Weapons and Explosives ",
+    "crimeType":"11 ,Weapons and Explosives ",
     "Y2004":2153,
     "Y2005":2558,
     "Y2006":3119,
@@ -702,7 +702,7 @@
     "Y2013":2750
   },
   {
-    "_id":"111 ,Explosives, chemical weapons ",
+    "crimeType":"111 ,Explosives, chemical weapons ",
     "Y2004":65,
     "Y2005":105,
     "Y2006":161,
@@ -715,7 +715,7 @@
     "Y2013":59
   },
   {
-    "_id":"1121 ,Discharging a firearm",
+    "crimeType":"1121 ,Discharging a firearm",
     "Y2004":291,
     "Y2005":311,
     "Y2006":298,
@@ -728,7 +728,7 @@
     "Y2013":161
   },
   {
-    "_id":"1122 ,Possession of a firearm",
+    "crimeType":"1122 ,Possession of a firearm",
     "Y2004":374,
     "Y2005":434,
     "Y2006":424,
@@ -741,7 +741,7 @@
     "Y2013":196
   },
   {
-    "_id":"113 ,Offensive weapons  (n.e.c.)",
+    "crimeType":"113 ,Offensive weapons  (n.e.c.)",
     "Y2004":1423,
     "Y2005":1708,
     "Y2006":2201,
@@ -754,7 +754,7 @@
     "Y2013":2188
   },
   {
-    "_id":"114 ,Fireworks ",
+    "crimeType":"114 ,Fireworks ",
     "Y2004":0,
     "Y2005":0,
     "Y2006":35,
@@ -767,7 +767,7 @@
     "Y2013":146
   },
   {
-    "_id":"12 ,Damage to property and to the environment",
+    "crimeType":"12 ,Damage to property and to the environment",
     "Y2004":37047,
     "Y2005":39728,
     "Y2006":43582,
@@ -780,7 +780,7 @@
     "Y2013":28913
   },
   {
-    "_id":"1211 ,Arson",
+    "crimeType":"1211 ,Arson",
     "Y2004":1505,
     "Y2005":1413,
     "Y2006":1641,
@@ -793,7 +793,7 @@
     "Y2013":1948
   },
   {
-    "_id":"1212 ,Criminal damage (not arson)",
+    "crimeType":"1212 ,Criminal damage (not arson)",
     "Y2004":35436,
     "Y2005":38187,
     "Y2006":41806,
@@ -806,7 +806,7 @@
     "Y2013":26750
   },
   {
-    "_id":"1221 ,Litter ",
+    "crimeType":"1221 ,Litter ",
     "Y2004":106,
     "Y2005":128,
     "Y2006":135,
@@ -819,7 +819,7 @@
     "Y2013":215
   },
   {
-    "_id":"13 ,Public order and other social code ",
+    "crimeType":"13 ,Public order and other social code ",
     "Y2004":47788,
     "Y2005":55479,
     "Y2006":56615,
@@ -832,7 +832,7 @@
     "Y2013":36453
   },
   {
-    "_id":"131 ,Disorderly conduct",
+    "crimeType":"131 ,Disorderly conduct",
     "Y2004":38230,
     "Y2005":42430,
     "Y2006":47235,
@@ -845,7 +845,7 @@
     "Y2013":30854
   },
   {
-    "_id":"132 ,Trespass ",
+    "crimeType":"132 ,Trespass ",
     "Y2004":1565,
     "Y2005":1842,
     "Y2006":2355,
@@ -858,7 +858,7 @@
     "Y2013":2951
   },
   {
-    "_id":"133 ,Liquor licensing ",
+    "crimeType":"133 ,Liquor licensing ",
     "Y2004":6687,
     "Y2005":9684,
     "Y2006":5708,
@@ -871,7 +871,7 @@
     "Y2013":1374
   },
   {
-    "_id":"134 ,Prostitution ",
+    "crimeType":"134 ,Prostitution ",
     "Y2004":219,
     "Y2005":84,
     "Y2006":107,
@@ -884,7 +884,7 @@
     "Y2013":120
   },
   {
-    "_id":"135 ,Regulated betting/money, collection/trading ",
+    "crimeType":"135 ,Regulated betting/money, collection/trading ",
     "Y2004":317,
     "Y2005":373,
     "Y2006":417,
@@ -897,7 +897,7 @@
     "Y2013":326
   },
   {
-    "_id":"136 ,Social code  (n.e.c.)",
+    "crimeType":"136 ,Social code  (n.e.c.)",
     "Y2004":770,
     "Y2005":1066,
     "Y2006":793,
@@ -910,7 +910,7 @@
     "Y2013":828
   },
   {
-    "_id":"15 , against government, justice procedures and organisation of crime",
+    "crimeType":"15 , against government, justice procedures and organisation of crime",
     "Y2004":6453,
     "Y2005":7792,
     "Y2006":9482,
@@ -923,7 +923,7 @@
     "Y2013":9188
   },
   {
-    "_id":"151 , against government and its agents",
+    "crimeType":"151 , against government and its agents",
     "Y2004":165,
     "Y2005":150,
     "Y2006":238,
@@ -936,7 +936,7 @@
     "Y2013":278
   },
   {
-    "_id":"152 ,Organisation of crime and conspiracy to commit crime",
+    "crimeType":"152 ,Organisation of crime and conspiracy to commit crime",
     "Y2004":16,
     "Y2005":5,
     "Y2006":19,
@@ -949,7 +949,7 @@
     "Y2013":4
   },
   {
-    "_id":"153 ,Perverting the course of justice",
+    "crimeType":"153 ,Perverting the course of justice",
     "Y2004":259,
     "Y2005":224,
     "Y2006":249,
@@ -962,7 +962,7 @@
     "Y2013":63
   },
   {
-    "_id":"157 , while in custody, breach of court orders",
+    "crimeType":"157 , while in custody, breach of court orders",
     "Y2004":6013,
     "Y2005":7413,
     "Y2006":8976,

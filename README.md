@@ -9,3 +9,6 @@ This repository is for the purpose of developing an API by combining the two dat
 
 ## Database to be used
 This API will use SQLite3 which is a transactional database engine as it is best suited for relatively small datasets and is ideal for low traffic websites (Less than 100,000 hits per day).
+
+## References used
+[Accessing the HTTP message body (e.g. POST data) in node.js](blog.frankgrimm.net/2010/11/howto-access-http-message-body-post-data-in-node-js/)
