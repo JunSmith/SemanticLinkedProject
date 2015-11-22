@@ -140,40 +140,18 @@ app.get('/delete', function(req, res) {
   res.render('delete.ejs');
 });
 
-// app.post('/delete/search', function(req, res) {
-//   console.log("/delete/search: \n\trdoTable: " + req.body.rdoTable + "\n\ttxtID: " + req.body.txtId);
-//
-//   if(req.body.rdoTable == 'crime') {
-//     db.all("SELECT * FROM " + req.body.rdoTable + " WHERE crimeType LIKE '%" + req.body.txtId + "%'", function(err, row) {
-//       rowString = JSON.stringify(row, null, '\t');
-//       //console.log(rowString.length);
-//       res.status(rowString).send(rowString);
-//       //res.render('delete-search', {searchRes : rowString});
-//     });
-//   }
-//
-//   else {
-//     db.all("SELECT * FROM " + req.body.rdoTable + " WHERE education LIKE '%" + req.body.txtId + "%' OR category LIKE '%" + req.body.txtId + "%'", function(err, row) {
-//       rowString = JSON.stringify(row, null, '\t');
-//       res.sendStatus(rowString);
-//     });
-//   }
-// });
-
 app.post('/delete/search', function(req, res) {
   console.log("/delete/search: \n\trdoTable: " + req.body.rdoTable + "\n\ttxtID: " + req.body.txtId);
 
-  if(req.body.rdoTable == 'crime') {
-    db.all("DELETE FROM " + req.body.rdoTable + " WHERE id = " + req.body.txtId);
-    res.render('index.ejs');
-  }
+  db.all("DELETE FROM " + req.body.rdoTable + " WHERE id = " + req.body.txtId);
+  db.all("SELECT * FROM " + req.body.rdoTable, function(err, row) {
+    rowString = JSON.stringify(row, null, '\t');
+    res.sendStatus(rowString);
+  });
+});
 
-  else {
-    db.all("SELECT * FROM " + req.body.rdoTable + " WHERE education LIKE '%" + req.body.txtId + "%' OR category LIKE '%" + req.body.txtId + "%'", function(err, row) {
-      rowString = JSON.stringify(row, null, '\t');
-      res.sendStatus(rowString);
-    });
-  }
+app.get('/update', function(req, res) {
+
 });
 
 var server = app.listen(port);
