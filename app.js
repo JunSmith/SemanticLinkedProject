@@ -13,8 +13,8 @@ var port = 8000; // Port to be used
 
 // Create new sqlite3 database
 var db = new sqlite3.Database(':memory:');
-var crime = JSON.parse(fs.readFileSync('./assets/CJA01_J.json','utf8'));
-var poverty = JSON.parse(fs.readFileSync('./assets/SIA15_J.json', 'utf8'));
+var crime = JSON.parse(fs.readFileSync('./assets/datasets/CJA01_J.json','utf8'));
+var poverty = JSON.parse(fs.readFileSync('./assets/datasets/SIA15_J.json', 'utf8'));
 
 // Create table named crime
 db.serialize(function() {
