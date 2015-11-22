@@ -29,7 +29,7 @@ URL | Page purpose
 
 ### Example usage
 Click on "Update a Record".
-![Image](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/1.png?raw=true =800x450)
+![Image](https://raw.githubusercontent.com/JunSmith/SemanticLinkedProject/master/assets/images/2.png ?raw=true)
 
 We'll fill out the form on the left side. The "ID" field must have an integer value that matches another entry in the table and the "2004" up to "2013" field needs to have an integer value too.
 ![Image](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/2.png)
