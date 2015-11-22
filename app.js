@@ -1,15 +1,15 @@
 // Declarations to use Node.js modules
-var sqlite3 = require('sqlite3').verbose();
-var express = require('express');
-var bodyParser = require('body-parser');
-var fs = require('fs');
+var sqlite3 = require('sqlite3').verbose(); // Database used
+var express = require('express'); // For web hosting
+var bodyParser = require('body-parser'); // To read JSON bodies
+var fs = require('fs'); // To read files
 
 // To use express in this application
 var app = express();
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); // To be able to read .ejs files
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true}));
-var port = 8000;
+var port = 8000; // Port to be used
 
 // Create new sqlite3 database
 var db = new sqlite3.Database(':memory:');
@@ -60,7 +60,7 @@ app.get('/allc', function(req, res) {
   });
 });
 
-//url:port//allp
+// queries poverty table to get all records from table
 app.get('/allp', function(req, res) {
   db.all("SELECT * FROM poverty", function(err, row) {
     rowString = JSON.stringify(row, null, '\t');
@@ -68,7 +68,7 @@ app.get('/allp', function(req, res) {
   });
 });
 
-
+// gets all records from both tables
 app.get('/all', function(req, res) {
   db.all("SELECT * FROM crime FULL OUTER JOIN poverty", function(err, row) {
     rowString = JSON.stringify(row, null, '\t');
@@ -76,48 +76,58 @@ app.get('/all', function(req, res) {
   });
 });
 
-app.get('/search/:id', function(req, res) {
-  db.all("SELECT * FROM crime WHERE id = " + req.params.crimeType, function(err, row) {
+// gets record matching secified ID from specified table (e.g. crime/3)
+app.get('/search/:table/:id', function(req, res) {
+  db.all("SELECT * FROM " + req.params.table + " WHERE id = " + req.params.id,
+    function(err, row) {
     rowString = JSON.stringify(row, null, '\t');
     res.sendStatus(rowString);
   });
 });
 
+// url ending to add to table
 app.get('/post', function(req, res) {
   res.render('post.ejs');
 });
 
+// Field information from post.ejs handled to insert into appropriate tables
 app.post('/post/confirm', function(req, res) {
   var elementArr;
 
+  // True if button below crime entry form is pressed
   if(req.body.btnFormSub == 'Submit Crime Entry') {
-      console.log("Crime was pressed");
-      elementArr = [req.body.crimeType, req.body.y2004, req.body.y2005,
-        req.body.y2006, req.body.y2007, req.body.y2008, req.body.y2009,
-        req.body.y2010, req.body.y2011, req.body.y2012, req.body.y2013];
+      console.log("/post/confirm: btnFormSub Crime Pressed");
 
+      // Array containing information from filled form
+      elementArr = [req.body.crimeType, req.body.cy2004, req.body.cy2005,
+        req.body.cy2006, req.body.cy2007, req.body.cy2008, req.body.cy2009,
+        req.body.cy2010, req.body.cy2011, req.body.cy2012, req.body.cy2013];
+
+        // prepares to insert into crime table
         var stmt = db.prepare("INSERT INTO crime (crimeType, y2004, y2005, "
           + "y2006, y2007, y2008, y2009, y2010, y2011, y2012, y2013) VALUES "
           + "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
+        // Fills table with form information
         stmt.run(elementArr[0], elementArr[1], elementArr[2], elementArr[3],
           elementArr[4], elementArr[5], elementArr[6], elementArr[7],
           elementArr[8], elementArr[9], elementArr[10]);
-        console.log(elementArr);
 
+        // Displays crime table to show change
         db.all("SELECT * FROM crime", function(err, row) {
           rowString = JSON.stringify(row, null, '\t');
           res.sendStatus(rowString);
         });
   }
 
-  else if(req.body.btnFormSub == 'Submit Poverty Entry') {
-    console.log("Poverty was pressed");
+  // Same process as above insertion into crime table but with poverty table
+  else {
+    console.log("/post/confirm: btnFormSub Poverty Pressed");
 
-    elementArr = [req.body.category, req.body.education, req.body.y2004,
-      req.body.y2005, req.body.y2006, req.body.y2007, req.body.y2008,
-      req.body.y2009, req.body.y2010, req.body.y2011, req.body.y2012,
-      req.body.y2013];
+    elementArr = [req.body.category, req.body.education, req.body.py2004,
+      req.body.py2005, req.body.py2006, req.body.py2007, req.body.py2008,
+      req.body.py2009, req.body.py2010, req.body.py2011, req.body.py2012,
+      req.body.py2013];
 
     var stmt = db.prepare("INSERT INTO poverty (education, category, y2004, "
       + "y2005, y2006, y2007, y2008, y2009, y2010, y2011, y2012, y2013) VALUES "
@@ -133,6 +143,7 @@ app.post('/post/confirm', function(req, res) {
     });
   }
 
+  console.log(elementArr);
   stmt.finalize();
 });
 
@@ -140,6 +151,7 @@ app.get('/delete', function(req, res) {
   res.render('delete.ejs');
 });
 
+// post function called by delete.ejs when submit button is clicked
 app.post('/delete/search', function(req, res) {
   console.log("/delete/search: \n\trdoTable: " + req.body.rdoTable + "\n\ttxtID: " + req.body.txtId);
 
@@ -151,7 +163,47 @@ app.post('/delete/search', function(req, res) {
 });
 
 app.get('/update', function(req, res) {
-
+  res.render('update.ejs');
 });
 
+// post function called by update.ejs when submit button is clicked
+app.post('/update/confirm', function(req, res) {
+
+  // True if button value is "Update Crime Entry"
+  if(req.body.btnFormSub == 'Update Crime Entry') {
+    // Updates values from form in update.ejs identified by specified ID named cid
+    db.all("UPDATE crime SET crimeType = '" + req.body.crimeType + "', y2004 = "
+      + req.body.cy2004 + ", y2005 = " + req.body.cy2005 + ", y2006 = "
+      + req.body.cy2006 + ", y2007 = " + req.body.cy2007 + ", y2008 = "
+      + req.body.cy2008 + ", y2009 = " + req.body.cy2009 + ", y2010 = "
+      + req.body.cy2010 + ", y2011 = " + req.body.cy2011 + ", y2012 = "
+      + req.body.cy2012 + ", y2013 = " + req.body.cy2013 + " WHERE id = "
+      + req.body.cid);
+
+    // Prints out all entries from crime table
+    db.all("SELECT * FROM crime", function(err, row) {
+      rowString = JSON.stringify(row, null, '\t');
+      res.sendStatus(rowString);
+    });
+  }
+
+  // Same process but with the poverty table
+  else {
+    db.all("UPDATE poverty SET category = '" + req.body.category + "'"
+      + ", education = '" + req.body.education + "', y2004 = "
+      + req.body.py2004 + ", y2005 = " + req.body.py2005 + ", y2006 = "
+      + req.body.py2006 + ", y2007 = " + req.body.py2007 + ", y2008 = "
+      + req.body.py2008 + ", y2009 = " + req.body.py2009 + ", y2010 = "
+      + req.body.py2010 + ", y2011 = " + req.body.py2011 + ", y2012 = "
+      + req.body.py2012 + ", y2013 = " + req.body.py2013 + " WHERE id = "
+      + req.body.pid);
+
+    db.all("SELECT * FROM poverty", function(err, row) {
+      rowString = JSON.stringify(row, null, '\t');
+      res.sendStatus(rowString);
+    });
+  }
+});
+
+// Listen on specified port
 var server = app.listen(port);

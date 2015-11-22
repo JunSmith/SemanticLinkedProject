@@ -1,0 +1,26 @@
+{
+  "name": "crime_and_poverty_api",
+  "version": "1.0.0",
+  "description": "A simple API developed using Node.js as a Semantic Web and Linked Data Project",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "ejs": "^2.3.4",
+    "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunSmith/SemanticLinkedProject.git"
+  },
+  "author": "Jun Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JunSmith/SemanticLinkedProject/issues"
+  },
+  "homepage": "https://github.com/JunSmith/SemanticLinkedProject#readme"
+}

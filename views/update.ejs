@@ -3,12 +3,13 @@
     <title>Crime &amp; Poverty API</title>
   </head>
   <body>
-    <h1>Add To Table</h1>
+    <h1>Update Record</h1>
     <a href="./index">Back to Home</a><br/>
     <table style="width:50%">
       <tr>
         <td>
-          <form name="crimeForm" action="/post/confirm" method="post">
+          <form name="crimeForm" action="/update/confirm" method="post">
+            ID <input type="text" name="cid"/><br/>
             Crime <input type="text" name="crimeType"/><br/>
             2004 <input type="text" name="cy2004"/><br/>
             2005 <input type="text" name="cy2005"/><br/>
@@ -20,11 +21,12 @@
             2011 <input type="text" name="cy2011"/><br/>
             2012 <input type="text" name="cy2012"/><br/>
             2013 <input type="text" name="cy2013"/><br/>
-            <input type="submit" name="btnFormSub" value="Submit Crime Entry"/>
+            <input type="submit" name="btnFormSub" value="Update Crime Entry"/>
           </form>
         </td>
         <td>
-          <form name="povertyForm" action="/post/confirm" method="post">
+          <form name="povertyForm" action="/update/confirm" method="post">
+            ID <input type="text" name="pid"/><br/>
             Education <input type="text" name="education"/><br/>
             Category <input type="text" name="category"/><br/>
             2004 <input type="text" name="py2004"/><br/>
@@ -37,14 +39,10 @@
             2011 <input type="text" name="py2011"/><br/>
             2012 <input type="text" name="py2012"/><br/>
             2013 <input type="text" name="py2013"/><br/>
-            <input type="submit" name="btnFormSub" value="Submit Poverty Entry"/>
+            <input type="submit" name="btnFormSub" value="Update Poverty Entry"/>
           </form>
         </td>
       </tr>
     </table>
-
-
-
-
   </body>
 </html>
