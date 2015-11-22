@@ -29,7 +29,7 @@ URL | Page purpose
 
 ### Example usage
 Click on "Update a Record".
-![Image](https://raw.githubusercontent.com/JunSmith/SemanticLinkedProject/master/assets/images/2.png ?raw=true)
+![Image](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/1.png)
 
 We'll fill out the form on the left side. The "ID" field must have an integer value that matches another entry in the table and the "2004" up to "2013" field needs to have an integer value too.
 ![Image](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/2.png)
@@ -39,4 +39,5 @@ Here we see the result of submitting the form; as we can see, the record with th
 
 ## References used
 [Accessing the HTTP message body (e.g. POST data) in node.js](blog.frankgrimm.net/2010/11/howto-access-http-message-body-post-data-in-node-js/)
+
 [W3Schools SQL Tutorials](http://www.w3schools.com/sql/)
