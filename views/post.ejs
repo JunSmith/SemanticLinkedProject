@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Crime &amp; Poverty API</title>
+  </head>
+  <body>
+    <h1>Add</h1>
+    <!-- <script>
+    function hideForm(rdoTable) {
+      //var tableName = (rdoTable == crime) ? 'crime' : 'poverty';
+      //var element = document.getElementById(tableName);
+      var formName = (rdoTable == 'crime') ? 'crimeForm' : 'povertyForm';
+      console.log(formName);
+      document.getElementById(formName).style.display = 'none';
+    }
+    </script>
+    <form enctype="application/x-www-form-urlencoded" onsubmit="return hidehtml(rdoTable);">
+      <input type="radio" name="rdoTable" value="crime"/>Crime
+      <br/>
+      <input type="radio" name="rdoTable" value="poverty"/>Poverty
+      <br/>
+      <input type="submit"/>
+    </form> -->
+
+    <form name="crimeForm" action="/post/confirm" method="post">
+      Crime <input type="text" name="crimeType"/><br/>
+      2004 <input type="text" name="y2004"/><br/>
+      2005 <input type="text" name="y2005"/><br/>
+      2006 <input type="text" name="y2006"/><br/>
+      2007 <input type="text" name="y2007"/><br/>
+      2008 <input type="text" name="y2008"/><br/>
+      2009 <input type="text" name="y2009"/><br/>
+      2010 <input type="text" name="y2010"/><br/>
+      2011 <input type="text" name="y2011"/><br/>
+      2012 <input type="text" name="y2012"/><br/>
+      2013 <input type="text" name="y2013"/><br/>
+      <input type="submit" name="btnFormSub" value="Submit Crime Entry"/>
+    </form>
+
+    <form name="povertyForm" action="/post/confirm" method="post">
+      Education <input type="text" name="education"/><br/>
+      Category <input type="text" name="category"/><br/>
+      2004 <input type="text" name="y2004"/><br/>
+      2005 <input type="text" name="y2005"/><br/>
+      2006 <input type="text" name="y2006"/><br/>
+      2007 <input type="text" name="y2007"/><br/>
+      2008 <input type="text" name="y2008"/><br/>
+      2009 <input type="text" name="y2009"/><br/>
+      2010 <input type="text" name="y2010"/><br/>
+      2011 <input type="text" name="y2011"/><br/>
+      2012 <input type="text" name="y2012"/><br/>
+      2013 <input type="text" name="y2013"/><br/>
+      <input type="submit" name="btnFormSub" value="Submit Poverty Entry"/>
+    </form>
+  </body>
+</html>
