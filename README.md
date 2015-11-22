@@ -10,6 +10,8 @@ This API will use SQLite3 which is a transactional database engine as it is best
 
 For web templating, two popular choices exist; namely ejs and JADE. ejs has been chosen over JADE as its usability is better as it matches more closely to html and its syntax also uses tags. It has also been chosen as it allows seamless usage with Javascript.
 
+This API should be expandable as database adjustments are easy to make and appearance elements such as CSS is supported to be integrated as part of ejs.
+
 ## How to query the API
 The API is aimed to be simple to use by displaying a form for most pages to input information to change or display some element from the database.
 
@@ -27,13 +29,14 @@ URL | Page purpose
 
 ### Example usage
 Click on "Update a Record".
-![Step 1](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/1.png)
+![Image](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/1.png?raw=true =800x450)
 
 We'll fill out the form on the left side. The "ID" field must have an integer value that matches another entry in the table and the "2004" up to "2013" field needs to have an integer value too.
-![Step 2](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/2.png?raw=true)
+![Image](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/2.png)
 
 Here we see the result of submitting the form; as we can see, the record with the ID of 1 has been changed.
-![](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/3.png)
+![Image](https://github.com/JunSmith/SemanticLinkedProject/tree/master/assets/images/3.png)
 
 ## References used
 [Accessing the HTTP message body (e.g. POST data) in node.js](blog.frankgrimm.net/2010/11/howto-access-http-message-body-post-data-in-node-js/)
+[W3Schools SQL Tutorials](http://www.w3schools.com/sql/)
